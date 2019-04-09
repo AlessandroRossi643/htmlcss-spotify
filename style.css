@@ -1,22 +1,29 @@
-.container-fluid{
-  width: 100%;
+/* STRUTTURE */
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin:0;
 }
 .navbar{
-  background-color: black;
+  background-color: #110101;
   height: 100vh;
   position: fixed;
-  z-index: 1;
-  padding:20px;
+  top: 0;
+  left: 0;
+  padding: 20px;
   width: 250px;
+  z-index: 1;
+  border-radius: 0;
 }
 .main{
-  background-color: blue;
-  height: 100vh;
+  background-image: linear-gradient(to right bottom, #851c1c, #6d151b, #540f18, #3c0b13, #270408);
+  padding: 40px;
   position: relative;
   left: 250px;
+  height: 100vh;
 }
 
-
+/* ESTETICA */
 .white{
   color:white;
 }
@@ -26,7 +33,11 @@
 .center{
   text-align: center;
 }
+.grey{
+  color: #dcdde1;
+}
 
+/* NAVBAR */
 .search{
   padding: 20px 0;
 }
@@ -34,8 +45,7 @@
   padding: 15px 10px 0;
 }
 
-
-button{
+.navbar button{
   display: block;
   padding: 5px;
   width: 180px;
@@ -46,7 +56,7 @@ button{
 .button2{
   background-color: #2f3640;
   border: 2px solid white;
-  color: white;
+  color: white!important;
 }
 
 .navbar small{
@@ -56,4 +66,23 @@ button{
 }
 .bordergrey{
   border-left: 1px solid grey;
+}
+
+
+
+.container-nomi{
+  display: flex;
+  width: 50%;
+  margin: 0 auto;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.flex-nomi h4{
+  padding: 0 10px;
+}
+.container-flex-img{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
