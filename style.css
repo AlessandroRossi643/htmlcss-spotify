@@ -1,0 +1,59 @@
+.container-fluid{
+  width: 100%;
+}
+.navbar{
+  background-color: black;
+  height: 100vh;
+  position: fixed;
+  z-index: 1;
+  padding:20px;
+  width: 250px;
+}
+.main{
+  background-color: blue;
+  height: 100vh;
+  position: relative;
+  left: 250px;
+}
+
+
+.white{
+  color:white;
+}
+.bold{
+  font-weight: bolder;
+}
+.center{
+  text-align: center;
+}
+
+.search{
+  padding: 20px 0;
+}
+.search i{
+  padding: 15px 10px 0;
+}
+
+
+button{
+  display: block;
+  padding: 5px;
+  width: 180px;
+  border-radius: 100px;
+  margin: 20px 0;
+  color: black;
+}
+.button2{
+  background-color: #2f3640;
+  border: 2px solid white;
+  color: white;
+}
+
+.navbar small{
+  padding: 0 10px;
+  text-align: justify;
+  float: left;
+}
+.bordergrey{
+  border-left: 1px solid grey;
+}
