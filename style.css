@@ -11,14 +11,14 @@
   top: 0;
   left: 0;
   padding: 20px;
-  width: 250px;
-  z-index: 1;
+  width: 15%;
 }
 .main{
   background-image: linear-gradient(to right bottom, #851c1c, #6d151b, #540f18, #3c0b13, #270408);
   padding: 40px;
   position: relative;
-  left: 250px;
+  left: 15%;
+  width: 85%;
 }
 
 /* ESTETICA */
@@ -58,7 +58,7 @@
   color: white!important;
 }
 
-.navb small{
+.nav small{
   padding: 0 10px;
   text-align: justify;
   float: left;
@@ -88,13 +88,4 @@
 .flex-items img{
   margin: 5px 0;
   height: 200px;
-}
-
-
-footer{
-  position: fixed;
-  left:0;
-  bottom: 0;
-  background-color: blue;
-  width: 100%;
 }
