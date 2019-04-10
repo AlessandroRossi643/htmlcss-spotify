@@ -19,7 +19,7 @@
   position: relative;
   left: 15%;
   width: 85%;
-  height: 1300px;
+  min-height: 1500px;
 }
 
 /* ESTETICA */
@@ -38,19 +38,16 @@
 
 
 /* NAVBAR */
-.search{
-  padding: 20px 0;
-}
-.search i{
-  padding: 15px 10px 0;
+.nav i{
+  padding: 15px 0;
 }
 
 .nav button, footer button{
   display: block;
   padding: 5px;
-  width: 180px;
+  width: 90%;
   border-radius: 100px;
-  margin: 20px 0;
+  margin: 20px auto;
   color: black;
 }
 .button2{
@@ -66,6 +63,11 @@
 }
 .bordergrey{
   border-left: 1px solid grey;
+}
+@media screen and (min-width:1200px) {
+  .media{
+    display: none;
+  }
 }
 
 
@@ -100,18 +102,49 @@ footer{
   width: 100%;
 }
 .footbar1{
-  padding: 10px;
+  padding: 5px 10px;
   background-image: linear-gradient(to right, #e33fbf, #ac77f2, #5d9bff, #00b4ff, #12c5eb);
+}
+.footbar1 p{
+  margin: 0;
 }
 .footbar2{
   background-color: black;
-  padding: 20px;
+  padding: 15px;
 }
 .footbar1 button{
   float: right;
   margin: 0;
   transform: translateY(-50px);
 }
+.container-icon{
+  margin: 0 auto;
+}
 .footbar2 i{
   margin: 0 10px;
+}
+#buttonfooter{
+  width: 180px;
+}
+
+
+@media screen and (min-width:768px) and (max-width:1200px){
+  .nav{
+    width: 10%;
+  }
+  .nav h3{
+    display: none;
+  }
+  .visible, .footbar1 button{
+    display: none;
+  }
+  .main{
+    width: 90%;
+    position: relative;
+    left: 10%;
+    height: 2000px;
+  }
+  .media{
+    display: block;
+  }
 }
