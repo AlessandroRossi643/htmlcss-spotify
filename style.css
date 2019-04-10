@@ -4,7 +4,7 @@
   padding: 0;
   margin:0;
 }
-.navbar{
+.nav{
   background-color: #110101;
   height: 100%;
   position: fixed;
@@ -13,7 +13,6 @@
   padding: 20px;
   width: 250px;
   z-index: 1;
-  border-radius: 0;
 }
 .main{
   background-image: linear-gradient(to right bottom, #851c1c, #6d151b, #540f18, #3c0b13, #270408);
@@ -36,6 +35,7 @@
   color: #dcdde1;
 }
 
+
 /* NAVBAR */
 .search{
   padding: 20px 0;
@@ -44,7 +44,7 @@
   padding: 15px 10px 0;
 }
 
-.navbar button{
+.nav button, footer button{
   display: block;
   padding: 5px;
   width: 180px;
@@ -58,7 +58,7 @@
   color: white!important;
 }
 
-.navbar small{
+.navb small{
   padding: 0 10px;
   text-align: justify;
   float: left;
@@ -77,7 +77,6 @@
   flex-direction: row;
   flex-wrap: wrap;
 }
-
 .row-flex{
   padding: 20px 0;
 }
@@ -89,4 +88,13 @@
 .flex-items img{
   margin: 5px 0;
   height: 200px;
+}
+
+
+footer{
+  position: fixed;
+  left:0;
+  bottom: 0;
+  background-color: blue;
+  width: 100%;
 }
