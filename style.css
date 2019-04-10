@@ -6,7 +6,7 @@
 }
 .navbar{
   background-color: #110101;
-  height: 100vh;
+  height: 100%;
   position: fixed;
   top: 0;
   left: 0;
@@ -20,7 +20,6 @@
   padding: 40px;
   position: relative;
   left: 250px;
-  height: 100vh;
 }
 
 /* ESTETICA */
@@ -78,11 +77,16 @@
   flex-direction: row;
   flex-wrap: wrap;
 }
-.flex-nomi h4{
-  padding: 0 10px;
+
+.row-flex{
+  padding: 20px 0;
 }
 .container-flex-img{
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+}
+.flex-items img{
+  margin: 5px 0;
+  height: 200px;
 }
