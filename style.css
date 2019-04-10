@@ -19,6 +19,7 @@
   position: relative;
   left: 15%;
   width: 85%;
+  height: 1300px;
 }
 
 /* ESTETICA */
@@ -59,7 +60,7 @@
 }
 
 .nav small{
-  padding: 0 10px;
+  padding: 0 8px;
   text-align: justify;
   float: left;
 }
@@ -88,4 +89,29 @@
 .flex-items img{
   margin: 5px 0;
   height: 200px;
+}
+
+
+footer{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+}
+.footbar1{
+  padding: 10px;
+  background-image: linear-gradient(to right, #e33fbf, #ac77f2, #5d9bff, #00b4ff, #12c5eb);
+}
+.footbar2{
+  background-color: black;
+  padding: 20px;
+}
+.footbar1 button{
+  float: right;
+  margin: 0;
+  transform: translateY(-50px);
+}
+.footbar2 i{
+  margin: 0 10px;
 }
